@@ -1,0 +1,70 @@
+Database table design
+
+content
+-id
+-catid
+-subcatid
+-title
+-content
+-url
+-createdate
+-publishdate
+-featuredimage
+-userid
+
+users
+-id
+-name
+-email
+-password md5
+-active
+-role
+
+category
+-id
+-category name
+-category description
+-category image
+
+subcat
+-id
+-catid
+-category name
+-category description
+-category image
+
+settings
+-id
+-name
+-value
+
+
+comments
+-id
+-cid
+-name
+-email
+-subject
+-submittime
+-status
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
